@@ -48,7 +48,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="text-center my-14">
-      <div className="rounded-full border border-yellow-500 w-[85%] md:w-[60%] lg:w-[47%] xl:w-[35%] 2xl:w-2/6 p-3 md:p-4 bg-yellow-400/15 m-auto flex justify-between items-center mt-20 mb-5">
+      <div className="rounded-full border border-yellow-500 w-[90%] md:w-[60%] lg:w-[47%] xl:w-[40%] 2xl:w-[35%] p-3 md:p-4 bg-yellow-400/15 m-auto flex justify-between items-center mt-20 mb-5">
       <Image src={Gesture} width={40} alt="Hand Gesture" />
         <h2 className="text-white text-center text-md md:text-xl lg:text-2xl">Hello! I am <span className="text-yellow-400">Nousheen A-Razzak</span></h2>
       </div>

@@ -1,22 +1,3 @@
-// import Header from "../header/header";
-// import Footer from "../footer/footer";
-
-// export default function About(){
-//     return(
-//         <div className="bg-slate-950">
-//           <div className="w-4/6 m-auto">
-//           <Header />
-
-//           {/* Contact Section */}
-//           <h1 className="text-center text-yellow-400 text-5xl font-bold my-20">Contact Me</h1>
-//           <div className="rounded-[60px] bg-zinc-900 text-white p-10 my-10 text-xl"></div>
-
-//           <Footer />
-//           </div>
-//         </div>
-//     )
-// }
-
 import Image from "next/image";
 import Header from "./header/header";
 import Gesture from "@/public/Waving-hand-gestures.png.png";
@@ -47,7 +28,7 @@ import Calender from "@/public/calender1.png";
 import Graduation from "@/public/graduation.png";
 import College from "@/public/college.png";
 import City from "@/public/city.png";
-import Wordpress from '@/public/wordpress.png';
+import Wordpress from "@/public/wordpress.png";
 import Hosting from "@/public/hosting.png";
 import Caching from "@/public/cache.png";
 import Theme from "@/public/theme.png";
@@ -69,12 +50,12 @@ export default function Home() {
       <div className="text-center my-14">
       <div className="rounded-full border border-yellow-500 w-[85%] md:w-[60%] lg:w-[47%] xl:w-[35%] 2xl:w-2/6 p-3 md:p-4 bg-yellow-400/15 m-auto flex justify-between items-center mt-20 mb-5">
       <Image src={Gesture} width={40} alt="Hand Gesture" />
-        <h2 className="text-white text-center text-md md:text-xl lg:text-2xl">Hello! I'm <span className="text-yellow-400">Nousheen A-Razzak</span></h2>
+        <h2 className="text-white text-center text-md md:text-xl lg:text-2xl">Hello! I am <span className="text-yellow-400">Nousheen A-Razzak</span></h2>
       </div>
       
       <h1 className="text-white text-3xl mt-3lg:mt-0 sm:text-4xl md:text-5xl lg:text-[54px] font-bold dark:text-theme-white text-theme-secondary lg:!leading-[60px]">Expert <span className="text-yellow-400 text-theme-primary inline-block">Web Designer</span> &amp; <span className="text-yellow-400 text-theme-primary inline-block">Front-End Developer</span></h1>
       
-      <p className="text-base my-5 sm:my-10 sm:text-lg md:text-xl lg:text-2xl text-white leading-7 lg:!leading-[40px]">I'm an <span className="font-bold">Expert frontend developer</span> with <br className="block md:hidden" /> <span className="text-sm sm:text-base md:text-lg lg:text-2xl font-bold px-3 md:px-5 py-1 rounded-full bg-opacity-5 border transition backdrop-blur-sm text-yellow-400 border-yellow-500">1+ Year</span> of expertise in ReactJS and NextJS. I create <br className="md:block hidden" /> responsive, user-centric web solutions, specializing in <span className="font-bold">SaaS</span> and <span className="font-bold">eCommerce</span> development.</p>
+      <p className="text-base my-5 sm:my-10 sm:text-lg md:text-xl lg:text-2xl text-white leading-7 lg:!leading-[40px]">I am an <span className="font-bold">Expert frontend developer</span> with <br className="block md:hidden" /> <span className="text-sm sm:text-base md:text-lg lg:text-2xl font-bold px-3 md:px-5 py-1 rounded-full bg-opacity-5 border transition backdrop-blur-sm text-yellow-400 border-yellow-500">1+ Year</span> of expertise in ReactJS and NextJS. I create <br className="md:block hidden" /> responsive, user-centric web solutions, specializing in <span className="font-bold">SaaS</span> and <span className="font-bold">eCommerce</span> development.</p>
 
       <div className="mt-6 sm:mb-20 flex items-center justify-center flex-wrap gap-3 lg:gap-5 text-xl sm:text-2xl font-medium"><a href="#" className="border border-yellow-500 rounded-full text-yellow-400 px-8 py-4 bg-yellow-400/15  hover:bg-yellow-500 hover:text-black">Download CV</a><a href="/#contact-me" className="bg-yellow-500 rounded-full text-black border border-transparent py-4 px-8 hover:bg-transparent hover:text-yellow-500 hover:border-yellow-500 hover:border">Hire Me</a></div>
 
@@ -219,7 +200,7 @@ export default function Home() {
               <p className="text-base sm:text-2xl lg:text-xl xl:text-2xl font-bold text-black">B.com</p>
             </div>
             </div>
-          <h3 className="text-2xl sm:text-3xl lg:text-2xl xl:text-3xl font-bold text-start">Bachelor's in Commerce</h3>
+          <h3 className="text-2xl sm:text-3xl lg:text-2xl xl:text-3xl font-bold text-start">Bachelors in Commerce</h3>
           <div>
             <div className="flex my-2">
               <div className="rounded-full bg-white flex p-3 sm:p-5 items-center">
@@ -244,7 +225,7 @@ export default function Home() {
 
       {/* Project Section */}
       <div className="mt-40 mb-10">
-      <h1 className="text-center text-yellow-400 text-4xl sm:text-5xl font-bold my-14">Projects I've Worked on</h1>
+      <h1 className="text-center text-yellow-400 text-4xl sm:text-5xl font-bold my-14">Projects I have Worked on</h1>
         <div className="bg-[#102762] p-5 sm:p-10 m-3 rounded-[40px] xl:rounded-[60px] flex flex-col lg:flex-row gap-5">
           <div className="w-full xl:w-1/2 bg-[#405281] rounded-[30px] xl:rounded-[60px] flex justify-center overflow-hidden">
           <Image src={Positivus} width={500} alt="Positivus"/>
@@ -256,7 +237,7 @@ export default function Home() {
           <div className="w-2/4 xl:w-1/4 rounded-full bg-[#405281] p-2 my-2">
         <p className="text-base text-white font-bold text-center">Landing Page</p>
         </div>
-          <p className="text-start text-base sm:text-lg font-semibold text-white my-2">Technologies I've Used</p>
+          <p className="text-start text-base sm:text-lg font-semibold text-white my-2">Technologies I have Used</p>
           <div className="flex justify-start flex-wrap sm:flex-nowrap">
        <div className="rounded-full bg-white flex justify-between items-center p-1 m-1 sm:p-2 sm:m-2 max-lg:p-1 max-lg:m-1">
         <Image src={Figma} width={30} alt="Figma"/>
@@ -302,7 +283,7 @@ export default function Home() {
           <div className="w-2/4 xl:w-1/4 rounded-full bg-[#653549] p-2 my-2">
         <p className="text-base text-white font-bold text-center">Website</p>
         </div>
-          <p className="text-start text-base sm:text-lg font-semibold text-white my-2">Technologies I've Used</p>
+          <p className="text-start text-base sm:text-lg font-semibold text-white my-2">Technologies I have Used</p>
           <div className="flex justify-start flex-wrap sm:flex-nowrap">
        <div className="rounded-full bg-white flex justify-between items-center p-1 m-1 sm:p-2 sm:m-2">
         <Image src={Figma} width={30} alt="Figma"/>
@@ -343,12 +324,12 @@ export default function Home() {
           </div>
           <div className="w-full xl:w-1/2">
           <div>
-          <h1 className="text-start text-4xl sm:text-5xl text-white font-bold">I'm Nousheen</h1>
+          <h1 className="text-start text-4xl sm:text-5xl text-white font-bold">Nousheen</h1>
           <p className="text-start text-base sm:text-lg font-semibold text-white my-2">Worked on</p>
           <div className="w-2/4 xl:w-1/4 rounded-full bg-[#9c355b] p-2 my-2">
         <p className="text-base text-white font-bold text-center">Portfolio</p>
         </div>
-          <p className="text-start text-base sm:text-lg font-semibold text-white my-2">Technologies I've Used</p>
+          <p className="text-start text-base sm:text-lg font-semibold text-white my-2">Technologies I have Used</p>
           <div className="flex justify-start flex-wrap sm:flex-nowrap">
        <div className="rounded-full bg-white flex justify-between items-center p-1 m-1 sm:p-2 sm:m-2">
         <Image src={Wordpress} width={30} alt="Wordpress"/>
@@ -487,12 +468,6 @@ export default function Home() {
         <Image src={Girl} width={250} alt="Girl Image" />
       </div>
       </div>
-
-      {/* Contact */}
-      {/* <div className="rounded-[60px] bg-white text-black p-10 text-xl">
-      <h1 className="text-center text-black text-5xl font-bold my-14">Contact Me</h1>
-      <form className="mt-6 sm:mt-8 md:mt-10 lg:mt-14 w-full flex flex-col items-start gap-8"><div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-5"><div className="w-full flex flex-col items-start gap-2"><div className="w-full flex items-center dark:bg-theme-secondary bg-theme-white dark:bg-opacity-5 bg-opacity-5 dark:text-theme-secondary text-theme-white gap-2 sm:gap-3 md:gap-4 lg:gap-5 border border-theme-secondary border-opacity-5 rounded-full px-4 sm:px-6 md:px-6 lg:px-9 text-sm sm:text-base md:text-lg lg:text-xl undefined"><div><path stroke-linecap="round" stroke-linejoin="round"></path></div><input[type='text'] placeholder="Full Name *" className="bg-transparent py-3.5 sm:py-4 md:py-5 lg:py-6 w-full outline-none" name="fullName"></div></div><div className="w-full flex flex-col items-start gap-2"><div className="w-full flex items-center dark:bg-theme-secondary bg-theme-white dark:bg-opacity-5 bg-opacity-5 dark:text-theme-secondary text-theme-white gap-2 sm:gap-3 md:gap-4 lg:gap-5 border border-theme-secondary border-opacity-5 rounded-full px-4 sm:px-6 md:px-6 lg:px-9 text-sm sm:text-base md:text-lg lg:text-xl undefined"><div><path stroke-linecap="round" stroke-linejoin="round"></path></div><input type="text" placeholder="Email *" className="bg-transparent py-3.5 sm:py-4 md:py-5 lg:py-6 w-full outline-none" name="email"></div></div><div className="w-full flex flex-col items-start gap-2"><div className="w-full flex items-center dark:bg-theme-secondary bg-theme-white dark:bg-opacity-5 bg-opacity-5 dark:text-theme-secondary text-theme-white gap-2 sm:gap-3 md:gap-4 lg:gap-5 border border-theme-secondary border-opacity-5 rounded-full px-4 sm:px-6 md:px-6 lg:px-9 text-sm sm:text-base md:text-lg lg:text-xl undefined"><div><path stroke-linecap="round" stroke-linejoin="round"></path></div><input type="text" placeholder="Mobile No." className="bg-transparent py-3.5 sm:py-4 md:py-5 lg:py-6 w-full outline-none" name="mobile"></div></div><div className="w-full flex flex-col items-start gap-2"><div className="w-full flex items-center dark:bg-theme-secondary bg-theme-white dark:bg-opacity-5 bg-opacity-5 dark:text-theme-secondary text-theme-white gap-2 sm:gap-3 md:gap-4 lg:gap-5 border border-theme-secondary border-opacity-5 rounded-full px-4 sm:px-6 md:px-6 lg:px-9 text-sm sm:text-base md:text-lg lg:text-xl undefined"><input type="text" placeholder="Subject *" className="bg-transparent py-3.5 sm:py-4 md:py-5 lg:py-6 w-full outline-none" name="subject"></div></div><div className="md:col-span-2 w-full flex flex-col items-start gap-2"><textarea class="w-full flex items-center dark:bg-theme-secondary bg-theme-white dark:bg-opacity-5 bg-opacity-5 dark:text-theme-secondary text-theme-white gap-5 border border-theme-secondary border-opacity-5 rounded-3xl px-4 sm:px-6 md:px-6 lg:px-9 text-sm sm:text-base md:text-lg lg:text-xl py-3.5 sm:py-4 md:py-5 lg:py-6 outline-none undefined" rows="7" name="message" placeholder="Message *"></textarea></div></div><button type="submit" className="btn-theme-primary"><span>Send</span><div><path stroke-linecap="round" stroke-linejoin="round"></path></div></button></form>
-      </div> */}
 
       </div>
 

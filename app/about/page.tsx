@@ -13,8 +13,8 @@ export default function About(){
           <Header />
 
           {/* About Section */}
-          <h1 className="text-center text-yellow-400 text-5xl font-bold my-10 sm:my-20">About Me</h1>
-          <div className="rounded-[60px] bg-zinc-900 text-white p-5 sm:p-10 my-10 text-xl text-center">
+          <h1 className="text-center text-yellow-400 text-4xl font-bold my-10 sm:my-20">About Me</h1>
+          <div className="rounded-[30px] sm:rounded-[60px] bg-zinc-900 text-white p-5 sm:p-10 my-10 text-lg text-center">
           <p>Hello, I am Nousheen. I am a Frontend developer and WordPress developer with two immersive years of experience in the ever-evolving world of web development. But beyond the years, I am defined by my passion for creating, my dedication to innovation, and my relentless pursuit of excellence.</p>
           <h3 className="text-yellow-500 font-bold text-3xl mt-8 mb-6">My Journey</h3>
           <p>For the past two years, I have delved deep into the realm of Web development. It is been a journey of transforming ideas into tangible, functional websites. VS Code has been my canvas, and I have painted digital masterpieces for clients from diverse industries.</p>
@@ -34,43 +34,43 @@ export default function About(){
           </div>
 
           {/* My Services */}
-          <h1 className="text-center text-yellow-400 text-5xl font-bold my-20">My Services</h1>
+          <h1 className="text-center text-yellow-400 text-4xl font-bold my-20">My Services</h1>
           <div className="flex max-lg:flex-col gap-10 md:max-lg:items-center lg:max-xl:justify-center lg:max-xl:flex-wrap">
-            <div className="w-full lg:w-[46%] xl:w-2/6 md:w-4/6 rounded-[60px] bg-white p-5 md:max-lg-m-10">
+            <div className="w-full lg:w-[46%] xl:w-2/6 md:w-4/6 rounded-[30px] sm:rounded-[60px] bg-white p-5 md:max-lg-m-10">
               <div>
-              <Image src={Nousheen} width={500} alt="Nousheen" className="rounded-[40px]"/>
+              <Image src={Nousheen} width={500} alt="Nousheen" className="rounded-[20px] sm:rounded-[40px]"/>
               </div>
               <div>
-                <h3 className="font-bold text-2xl sm:text-3xl mt-8">WordPress Website / SEO Friendly / Speed Optimization</h3>
+                <h3 className="font-bold text-xl sm:text-3xl mt-8">WordPress Website / SEO Friendly / Speed Optimization</h3>
                 <div className="flex mt-10">
-                <div className="flex items-center justify-center text-xl sm:text-2xl bg-black rounded-full text-white border border-transparent py-4 px-8 font-medium xl:max-2xl:text-xl">$200</div>
-                <div className="w-full flex items-center justify-center text-xl sm:text-2xl xl:max-2xl:text-xl"><a href="/contact" className="bg-yellow-500 rounded-full text-black border border-transparent py-4 px-4 hover:bg-transparent hover:text-yellow-500 hover:border-yellow-500 hover:border flex items-center p-2 font-medium">Buy My Service</a></div>
+                <div className="flex items-center justify-center text-xs sm:text-2xl bg-black rounded-full text-white border border-transparent py-4 px-8 font-medium xl:max-2xl:text-xl">$200</div>
+                <div className="w-full flex items-center justify-center text-xs sm:text-2xl xl:max-2xl:text-xl"><a href="/contact" className="bg-yellow-500 rounded-full text-black border border-transparent py-4 px-4 hover:bg-transparent hover:text-yellow-500 hover:border-yellow-500 hover:border flex items-center p-2 font-medium">Buy My Service</a></div>
                 </div>
               </div>
             </div>
 
-            <div className="w-full md:w-4/6 lg:w-[46%] xl:w-2/6 rounded-[60px] bg-white p-5">
+            <div className="w-full md:w-4/6 lg:w-[46%] xl:w-2/6 rounded-[30px] sm:rounded-[60px] bg-white p-5">
               <div>
-              <Image src={Positivus} width={500} alt="Positivus" className="rounded-[40px]"/>
+              <Image src={Positivus} width={500} alt="Positivus" className="rounded-[20px] sm:rounded-[40px]"/>
               </div>
               <div>
-                <h3 className="font-bold text-2xl sm:text-3xl mt-8">Landing Page / Next JS / Responsive / Fully Optimized</h3>
+                <h3 className="font-bold text-xl sm:text-3xl mt-8">Landing Page / Next JS / Responsive / Fully Optimized</h3>
                 <div className="flex mt-10">
-                <div className="flex items-center justify-center text-xl sm:text-2xl bg-black rounded-full text-white border border-transparent py-4 px-8 p-2 font-medium xl:text-xl 2xl:text-2xl">$400</div>
-                <div className="w-full flex items-center justify-center text-xl sm:text-2xl xl:max-2xl:text-xl"><a href="/contact" className="bg-yellow-500 rounded-full text-black border border-transparent py-4 px-4 hover:bg-transparent hover:text-yellow-500 hover:border-yellow-500 hover:border flex items-center p-2 font-medium">Buy My Service</a></div>
+                <div className="flex items-center justify-center text-xs sm:text-2xl bg-black rounded-full text-white border border-transparent py-4 px-8 p-2 font-medium xl:text-xl 2xl:text-2xl">$400</div>
+                <div className="w-full flex items-center justify-center text-xs sm:text-2xl xl:max-2xl:text-xl"><a href="/contact" className="bg-yellow-500 rounded-full text-black border border-transparent py-4 px-4 hover:bg-transparent hover:text-yellow-500 hover:border-yellow-500 hover:border flex items-center p-2 font-medium">Buy My Service</a></div>
                 </div>
               </div>
             </div>
 
-            <div className="w-full md:w-4/6 lg:w-[46%] xl:w-2/6 rounded-[60px] bg-white p-5">
+            <div className="w-full md:w-4/6 lg:w-[46%] xl:w-2/6 rounded-[30px] sm:rounded-[60px] bg-white p-5">
               <div>
-              <Image src={Recognify} width={500} alt="Recognify" className="rounded-[40px]"/>
+              <Image src={Recognify} width={500} alt="Recognify" className="rounded-[20px] sm:rounded-[40px]"/>
               </div>
               <div>
-                <h3 className="font-bold text-2xl sm:text-3xl mt-8">MultiPage Website / Next JS / Responsive / Fully Optimized</h3>
+                <h3 className="font-bold text-xl sm:text-3xl mt-8">MultiPage Website / Next JS / Responsive / Fully Optimized</h3>
                 <div className="flex mt-10">
-                <div className="flex items-center justify-center text-xl sm:text-2xl bg-black rounded-full text-white border border-transparent py-4 px-8 p-2 font-medium xl:max-2xl:text-xl">$800</div>
-                <div className="w-full flex items-center justify-center text-xl sm:text-2xl xl:max-2xl:text-xl"><a href="/contact" className="bg-yellow-500 rounded-full text-black border border-transparent py-4 px-4 hover:bg-transparent hover:text-yellow-500 hover:border-yellow-500 hover:border flex items-center p-2 font-medium">Buy My Service</a></div>
+                <div className="flex items-center justify-center text-xs sm:text-2xl bg-black rounded-full text-white border border-transparent py-4 px-8 p-2 font-medium xl:max-2xl:text-xl">$800</div>
+                <div className="w-full flex items-center justify-center text-xs sm:text-2xl xl:max-2xl:text-xl"><a href="/contact" className="bg-yellow-500 rounded-full text-black border border-transparent py-4 px-4 hover:bg-transparent hover:text-yellow-500 hover:border-yellow-500 hover:border flex items-center p-2 font-medium">Buy My Service</a></div>
                 </div>
               </div>
             </div>
